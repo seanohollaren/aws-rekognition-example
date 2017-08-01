@@ -1,0 +1,14 @@
+service: rekognition
+
+provider:
+  name: aws
+  runtime: nodejs6.10
+  role: # role here
+
+functions:
+  recognize:
+    handler: handler.recognize
+    events:
+      - http:
+          path: recognize
+          method: post
