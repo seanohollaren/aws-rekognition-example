@@ -18,7 +18,7 @@ Once the function is deployed, grab the `endpoint` that Serverless prints out an
 To hit the endpoint with the example image, run `node example.js`.  This will return the labels that Rekognition pulled from the image.
 
 
-### Example output
+### Output
 
 The API will return with the output received from Rekognition.
 
