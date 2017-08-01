@@ -14,7 +14,7 @@ if (!endpoint || endpoint === '') {
 }
 
 // pull base64 representation of image from file system
-const image = fs.readFile(imageLocation, 'base64', (err, data) => {
+fs.readFile(imageLocation, 'base64', (err, data) => {
 
   // post to lambda endpoint
   request.post({
