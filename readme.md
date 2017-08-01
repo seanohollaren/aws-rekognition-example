@@ -5,6 +5,8 @@ This is a lambda-based endpoint which accepts base64 encoded image data and retu
 
 ### Deployment
 
+If you don't have it already, install `serverless` with `npm install -g serverless`.
+
 Update the execution role within `serverless.yml` and then deploy the function to AWS with `serverless deploy` command.
 
 Once the function is deployed, grab the `endpoint` that Serverless prints out and update line 8 of `example.js`.
