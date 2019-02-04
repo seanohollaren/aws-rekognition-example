@@ -1,0 +1,25 @@
+{
+  "name": "aws-rekognition-example",
+  "version": "1.0.0",
+  "description": "This is a lambda-based endpoint which accepts base64 encoded image data and returns information about what was detected in the image.",
+  "main": "example.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seanohollaren/aws-rekognition-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seanohollaren/aws-rekognition-example/issues"
+  },
+  "homepage": "https://github.com/seanohollaren/aws-rekognition-example#readme",
+  "dependencies": {
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "aws-sdk": "^2.395.0"
+  }
+}
