@@ -22,7 +22,7 @@ To hit the endpoint with the example image, run `node example.js`.  This will re
 
 The API will return the output received from Rekognition.
 
-Example output for [test.jpg](https://bitbucket.nike.com/users/sohol1/repos/rekognition-lambda/browse/test.jpg):
+Example output for [test.jpg](https://github.com/seanohollaren/aws-rekognition-example/blob/master/test.jpg?raw=true):
 
 ```
 {
